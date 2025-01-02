@@ -1,0 +1,8 @@
+Pohang/30000
+Pohang Weather/40000
+Pohang Café/80000
+Bible/100000
+Pohang Restaurant/50000
+Pohang Hotel/10000
+Bible name/500
+Bible seller/12500
