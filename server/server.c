@@ -128,7 +128,6 @@ void *handle_clnt(void *arg)
         char word[WORD_SIZE];
         strcpy(word, msg);
 
-        puts(word);
         memset(&msg, 0, sizeof(msg));
 
         int result_count = 0;

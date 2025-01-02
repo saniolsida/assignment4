@@ -22,8 +22,6 @@ typedef struct
     int frequency;
 } search_engine;
 
-char name[10] = "[SERVER]: ";
-
 int main(int argc, char *argv[])
 {
     int sock;
@@ -98,7 +96,7 @@ void *send_msg(void *arg)
         {
             index = 0;
             memset(&word, 0, sizeof(word));
-            printf("\033[2J");
+
         }
         else
         {
@@ -110,11 +108,11 @@ void *send_msg(void *arg)
 
         printf("\033[2J");
         printf("\033[H");
-        // system("cls");
 
         if (index == 0)
         {
-            printf("Search word: ");
+            // printf("Search word: ");
+            printf("Search word: \n");
             continue;
         }
 
